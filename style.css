@@ -1,9 +1,15 @@
-
+.contenedor-logo{
+    background-color: rgb(242, 242, 242);
+   
+}
 .logo{
     border-radius: 20;
     margin: auto;
     display: block;
     width: 550px;
+    justify-content: center;
+    width: 50%;
+    
 
 }
 
@@ -11,14 +17,10 @@
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 20px;
-    padding: 0;
+    gap: 100px; 
+    padding: 15px;
+    padding-top: 15px;
+    background-image: linear-gradient(to top,rgb(242, 242, 242), rgb(255, 255, 255));
 }
 
-.navegacion ul li a{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    font-size: 18px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
+
