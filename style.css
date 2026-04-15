@@ -1,8 +1,21 @@
+.navbar a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 25px;
+    transition: all 0.5s ease;
+}
+.navbar a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-color: white;
+}
 .contenedor-logo{
     background-color: rgb(242, 242, 242);
    
 }
 .logo{
+    padding-top: 30px;
     border-radius: 20;
     margin: auto;
     display: block;
@@ -24,8 +37,24 @@
 }
 
 .fondo{
+
     width: 100%;
-    height: 600px;
+    height: 550px;
 }
-
-
+.row {
+    display: flex;
+    justify-content: center; /* Centra las cartas si no ocupan todo el ancho */
+    gap: 80px;              /* Añade espacio entre las cartas */
+}
+.card{
+    text-align: center;
+    padding : auto;
+    margin: 50px;
+    height: 100%;
+}
+.card-img-top{
+    width: 100%;
+    border-radius: 50%;
+    padding: auto;
+    margin: auto;
+}
