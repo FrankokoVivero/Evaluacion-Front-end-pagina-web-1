@@ -11,8 +11,7 @@
     border-color: white;
 }
 .contenedor-logo{
-    background-color: rgb(242, 242, 242);
-   
+    background-color: rgb(242, 242, 242);   
 }
 .logo{
     padding-top: 30px;
@@ -36,16 +35,41 @@
     background-image: linear-gradient(to top,rgb(242, 242, 242), rgb(255, 255, 255));
 }
 
-.fondo{
-
+.home{
     width: 100%;
     height: 550px;
+    background-image: url(imagenes/fondo.jpg);
+    background-size: cover;
+    background-position: center;
 }
+.home, .home h1, .home p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: Arial, sans-serif;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
+}
+
 .row {
+    background-image: linear-gradient(to top, rgb(186, 186, 186),rgb(255, 255, 255), rgb(186, 186, 186));
     display: flex;
     justify-content: center; /* Centra las cartas si no ocupan todo el ancho */
-    gap: 80px;              /* Añade espacio entre las cartas */
+    gap: 20px;              /* Añade espacio entre las cartas */
 }
+
+.row h1 {
+    width: 100%;
+    text-align: left;
+    margin-left:40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+    
+}
+
 .card{
     text-align: center;
     padding : auto;
@@ -57,4 +81,40 @@
     border-radius: 50%;
     padding: auto;
     margin: auto;
+}
+
+
+.texto-ofertas h1{
+    color: rgba(255, 190, 61, 0.9);
+    font-size: 70px;
+    text-align: center;
+}
+.texto-ofertas{
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 25px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+    text-align: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.9)) , url(imagenes/ofertas.jpg);
+    background-size: auto;
+    background-position: center;
+}
+
+
+.contenedor-ofertas{
+    background-image: linear-gradient(to top, rgb(231, 231, 231),rgb(255, 255, 255));
+    padding: 50px;
+    text-align: center;
+}
+
+.footer{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    color: rgb(255, 255, 255)   ;
+}
+
+.card-text-ofertas{
+    text-decoration: line-through;
+    color: black;
 }
